@@ -26,8 +26,12 @@ Java Script (às vezes abreviado para JS) é uma linguagem leve, interpretada e 
  #Integrantes do grupo:
  
  Everson Hernandes Brito Souza
+ 
  Diogo Packer Elias
+ 
  Gabriel Santos Leite
+ 
  Gabriel Vitor Viana de Brito
+ 
  Luiz Flavio Mizozoe Amorim
 
