@@ -22,4 +22,12 @@ CSS (Cascading Style Sheets ou folhas de estilos em cascata) é uma linguagem de
 
 Java Script (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node js, Apache CouchDB e Adobe Acrobat. O Java Script é uma linguagem baseada em protótipos, multi-paradigma e dinâmica suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional) [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
  ].
+ 
+ #Integrantes do grupo:
+ 
+ Everson Hernandes Brito Souza
+ Diogo Packer Elias
+ Gabriel Santos Leite
+ Gabriel Vitor Viana de Brito
+ Luiz Flavio Mizozoe Amorim
 
