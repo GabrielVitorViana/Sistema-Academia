@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\view\css\stylecatraca.css">
+    <title>Gerar Comprovante</title>
+</head>
+<body>
+    <body>
+	<div class="campo">
+		<div class="cabecalho">
+			<div class="centro">
+				<div class="menu">
+					<div class="opcao" id="option"><a href="../index.html">Voltar</a></div>
+					<div class="opcao" id="option"><a href="">Menu</a></div>
+					<div class="opcao" id="option"><a href="">Menu</a></div>
+					<div class="opcao" id="option"><a href="">Menu</a></div>
+				</div>
+				<div class="logo">
+					<img src="..\view\imagens\logo.png" width="150" height="100"> 
+				</div>
+			</div>
+		</div>
+    <div class="pagina">
+        <div class="banner">
+            <div class="central">
+                <div class="gerenciamento">
+                    <div class="confirmacao">
+                        <h1>Faça a emissão do seu comprovante.</h1>
+                        <form method="POST" action="..\controller\gerarComprovante.php">
+                            <fieldset>
+                                <div align="centerconfirmacao">
+                                    <p>Username: <input type="text" name="username"></p>
+                                </div>
+                                <div align="centerconfirmacao">
+                                    <p>Senha: <input type="password" name="senha"></p>
+                                </div>
+                            </fieldset>
+                            <div class="Conferir" align="right">
+                                <input type="submit" name="confirmar" value="Emitir Comprovante">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="liberacao">
+                        <h1>Gerar Comprovante</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

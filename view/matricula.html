@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="..\view\css\stylematricula.css">
+	<title>Academia</title>
+</head>
+<body>
+	<div class="campo">
+		<div class="cabecalho">
+			<div class="centro">
+				<div class="menu">
+					<div class="opcao" id="option"><a href="../index.html">Voltar</a></div>
+					<div class="opcao" id="option"><a href="">Menu</a></div>
+					<div class="opcao" id="option"><a href="">Menu</a></div>
+					<div class="opcao" id="option"><a href="">Menu</a></div>
+				</div>
+				<div class="logo">
+					<img src="..\view\imagens\logo.png" width="150" height="100"> 
+				</div>
+			</div>
+		</div>
+		<div class="pagina">
+			<div class="banner">
+				<div class="central">
+					<div class="perfil">
+						<img src="..\view\imagens\perfill.jpg" width="125" height="200">
+					</div>
+					<div class="formulario">
+						<p><strong>Matricula para novos alunos:</strong></p>
+						<form method="POST" action="..\controller\criarMatricula.php">
+							<fieldset>
+								<legend>Dados Pessoais</legend>
+								<div align="center">
+									<p>CPF: <input type="number" name="cpf"  size="18"> RG: <input type="text" name="rg" size="15"></p>
+								</div>
+								<div align="center">
+									<p>Nome Completo: <input type="text" name="nome" size="50"></p>
+								</div>
+								<div align="center">
+									<p>Filiação: <input type="text" name="filiacao" size="40"></p>
+								</div>
+								<div align="center">
+									<p>Data de Nascimento: <input type="data" name="data" size="6"> Nacionalidade: <input type="text" name="nacionalidade" size="20"></p>
+								</div>
+								<div align="center">
+									<p>Gênero: M<input type="radio" name="sexo"> F<input type="radio" name="sexo"> Profissão: <input type="text" name="profissao" size="20"></p>
+								</div>
+								<div align="center">
+									<p>E-Mail: <input type="email" name="email" size="30"></p>
+								</div>
+							</fieldset>
+							<fieldset>
+								<legend>Dados Residenciais</legend>
+								<div align="center">
+									<p>Telefone: <input type="number" name="ddd" size="3" value="DDD"> <input type="number" name="telefone" size="11"></p>
+								</div>
+								<div align="center">
+									<p>CEP: <input type="number" name="cep" size="11"> Estado: <select name="estado">
+										<option>---</option>
+										<option>AC</option>
+										<option>AL</option>
+										<option>AP</option>
+										<option>AM</option>
+										<option>BA</option>
+										<option>CE</option>
+										<option>DF</option>
+										<option>ES</option>
+										<option>GO</option>
+										<option>MA</option>
+										<option>MT</option>
+										<option>MS</option>
+										<option>MG</option>
+										<option>PA</option>
+										<option>PB</option>
+										<option>PR</option>
+										<option>PE</option>
+										<option>PI</option>
+										<option>RJ</option>
+										<option>RN</option>
+										<option>RS</option>
+										<option>RO</option>
+										<option>RR</option>
+										<option>SC</option>
+										<option>SP</option>
+										<option>SE</option>
+										<option>TO</option>
+									</select> </p>
+								</div>
+								<div align="center">
+									<p>Cidade: <input type="text" name="cidade" size="30"> País: <input type="text" name="pais" size="30"></p>
+								</div>
+								<div align="center">
+									<p>Endereço: <input type="text" name="endereco" size="30"></p>
+								</div>
+							</fieldset>
+							<fieldset>
+								<legend>Conta</legend>
+								<div align="center">
+									<p>Username: <input type="text" name="username"></p>
+								</div>
+								<div align="center">
+									<p>Senha: <input type="password" name="senha"></p>
+								</div>
+								<div align="center">
+									<p>Confime sua senha: <input type="password" name="confirme"></p>
+								</div>
+							</fieldset>
+							<div class="enviar" align="right">
+								<input type="submit" name="enviar" value="Matricular">
+							</div>
+							<div class="back"align="left">
+							<p><strong><a href="../index.html"><-Voltar</a></strong></p>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rodape">
+			<div class="rodapecenter">
+				<div class="rodapeprimeiro">
+					<div class="rodapecima"></div>
+					<div class="rodapebaixo">
+						<a href="" id="optionrodape"><p>Conheça nossas unidades</p></a>
+						<a href="" id="optionrodape"><p>Comunicar erro</p></a>
+					</div>
+				</div>
+				<div class="rodapesegundo">
+					<div class="rodapecima">
+						<div class="social"><a href=""><img src="..\view\imagens\facebook.png"></a></div>
+						<div class="social"><a href=""><img src="..\view\imagens\youtube.png"></a></div>
+						<div class="social"><a href=""><img src="..\view\imagens\instagram.png"></a></div>
+						<div class="social"><a href=""><img src="..\view\imagens\twiter.png"></a></div>
+						<div class="social"><a href=""><img src="..\view\imagens\whatsapp.png"></a></div>
+					</div>
+					<div class="rodapebaixo">
+						<a href="" id="optionrodape"><p>Contatos@gmail.com</p></a>
+						<a href="" id="optionrodape"><p>Contatos123@yahoo.com.br</p></a>
+						<a href="" id="optionrodape"><p>Contato@hotmail.com</p></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

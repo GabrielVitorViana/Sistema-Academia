@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fechamento de Caixa</title>
+    <link rel="stylesheet" href="css/fecharCaixa.css">
+</head>
+<body>
+        <header class="logo">
+            <img src="imagens\logo.png" width="150" height="100">
+        </header>
+        <header class="header">
+            <ul>
+                <li><a href="../view/homeAdmin.html">Inicio</li></a>
+                <li><a href="">Perfil</li></a>
+                <li><a href="../view/sobre.html">Sobre</a></li>
+                <li><a href="../controller/logOutAdmin.php">Sair</li></a>
+            </ul>
+        </header>
+        <div class="conteudo">
+            <form class="formulario" action="../controller/fecharCaixa.php" method="post">
+                <fieldset>
+                    <legend>
+                        <h3>Dados do Fechamento, coloque o total de valores recebidos no caixa</h3>
+                    </legend>
+                    <label for="data">Data do Fechamento de caixa</label>
+                    <input type="date" name="data">
+                    <br><br>
+
+                    <label for="name">Nome do resposavel:</label>
+                    <input type="text" name="nome">
+                    <br><br>
+
+                    <label for="dinheiro">Valor em dinheiro:</label>
+                    <input type="number" name="dinheiro">
+                    <br><br>
+
+                    <label for="cartao">Valor em cartões:</label>
+                    <input type="number" name="cartao">
+                    <br><br>
+
+                    <label for="dispesas">Valor gasto em despesas:</label>
+                    <input type="number" name="despesas">
+                    <br><br>
+
+                    <input class="button" type="submit" value="Registrar Valor">
+                </fieldset>
+            </form>
+        </div>
+</body>
+</html>

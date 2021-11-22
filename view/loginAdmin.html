@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..\view\css\stylecatraca.css">
+    <title>Login de Adminstrador</title>
+</head>
+<body>
+    <div class="pagina">
+        <div class="banner">
+            <div class="central">
+                <div class="gerenciamento">
+                    <div class="confirmacao">
+                        <h1>Confirmação de entrada na academia.</h1>
+                        <form method="POST" action="..\controller\validarAdmin.php">
+                            <fieldset>
+                                <legend>Conta</legend>
+                                <div align="centerconfirmacao">
+                                    <p>Username: <input type="text" name="admname"></p>
+                                </div>
+                                <div align="centerconfirmacao">
+                                    <p>Senha: <input type="password" name="senha"></p>
+                                </div>
+                            </fieldset>
+                            <div class="Conferir" align="right">
+                                <input type="submit" name="confirmar" value="Conferir">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="liberacao">
+                        <h1>Area do Adminstrador</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

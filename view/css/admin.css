@@ -1,0 +1,95 @@
+body{
+    background-repeat: repeat;
+    background-color: black;
+}
+
+.logo img{
+    width:350px;
+	height:200px;
+	border-radius:10px;
+    float: left;
+    margin-left: 120px;
+}
+
+.header{
+    float: right;
+    margin-top: 75px;
+}
+
+.header ul{
+    float: right;
+    list-style-type: none;
+}
+
+.header li{
+    display: inline-block;
+}
+
+.header a{
+    font-size:25px;
+	text-decoration:none;
+	font-family:verdana;
+	color:green;
+	margin-left:15px;
+    padding: 20px;
+}
+
+.header a:hover{
+    border-style: block;
+    border-color: green;
+    border-radius: 15px;
+}
+
+.menu{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    text-decoration:none;
+    margin: 50px;
+	width:400px;
+	height:80px;
+	border-radius:20px;
+	background-color:#2E8B57;
+	opacity: 0.9;
+}
+
+.menu li:hover{
+    background-color:#006400;
+	color:#1C1C1C;
+	opacity:1;
+    transition: 1s;
+}
+
+.menu a{
+    text-decoration:none;
+	font-size:40px;
+	text-align:center;
+	font-family:verdana;
+	color:black;   
+}
+
+.socialmedia img{
+    height: 50px;
+    width: 50px;
+}
+
+.socialmedia li{
+    display: inline-block;
+}
+
+.rodape{
+    text-align: center;
+    margin-top:2px;
+	font-size:18px;
+	color:#2E8B57;
+    border-style: solid;
+    border-radius: 20px;
+    border-color:#2E8B57;
+}

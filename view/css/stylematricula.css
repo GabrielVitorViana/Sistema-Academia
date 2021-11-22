@@ -1,0 +1,482 @@
+body {
+	background-color:black;
+}
+
+a {
+	text-decoration:none;
+}
+
+.campo {
+	width:100%;
+	height:1100px;
+	background-color:black;
+}
+
+.cabecalho {
+	width:100%;
+	height:100px;
+	background-color:black;
+}
+
+.centro {
+	width:80%;
+	height:100px;
+	background-color:black;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.menu {
+	background-color:black;
+	margin-top:25px;
+	float:right;
+	width:500px;
+	height:50px;
+}
+
+.opcao {
+	background-color:black;
+	float:right;
+	margin-right:10px;
+	width:111px;
+	height:50px;
+}
+
+.opcao a {
+	font-size:25px;
+	text-decoration:none;
+	font-family:arial;
+	color:green;
+	margin-left:15px;
+	margin-top:10px;
+}
+
+.logo {
+	background-color:pink;
+	width:150px;
+	height:100px;
+}
+
+.pagina {
+	width:100%;
+	height:800px;
+	background-color:black;
+}
+
+.banner {
+	width:80%;
+	height:800px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.banner {
+	background: url('../imagens/bannerm.jpeg');
+	background-size: 1100px 800px;
+}
+
+.central {
+	width:900px;
+	height:600px;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+.formulario {
+	background-color:#C0C0C0;
+	width:775px;
+	height:800px;
+	border-radius:10px;
+	opacity: 0.8;
+}
+
+.enviar input {
+	padding:10px;
+	margin:20px;
+}
+
+.back a {
+	text-decoration:none;
+	color:black;
+	font-size:15px;
+	font-family:verdana;
+}
+
+form p {
+	font-family:verdana;
+}
+
+legend {
+	font-family:verdana;
+}
+
+.formulario strong {
+	font-family:verdana;
+	font-size:15px;
+}
+.perfil {
+	background-color:blue;
+	float:right;
+	width:125px;
+	height:200px;
+	border-radius:10px;
+}
+
+.perfil img {
+	border-radius:10px;
+	opacity: 1;
+}
+
+.rodape {
+	width:100%;
+	height:200px;
+	background-color:#000000;
+}
+
+.rodapecenter {
+	width:80%;
+	border-radius:20px;
+	height:200px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.rodapeprimeiro {
+	width:49%;
+	height:200px;
+	border-radius:20px;
+	background-color:#000000;
+	margin-left:1%;
+	float:right;
+}
+
+.rodapesegundo {
+	width:49%;
+	height:200px;
+	border-radius:20px;
+	margin-right:1%;
+	background-color:#000000;
+}
+
+.rodapecima {
+	background-color:#000000;
+	width:100%;
+	height:100px;
+	border-radius:20px;
+}
+
+.social {
+	text-align:center;
+	width:15%;
+	height:100px;
+	border-radius:50%;
+	margin-right:1%;
+	float:left;
+}
+
+.social img {
+	width:100%;
+	height:100px;
+	border-radius:50%;
+}
+
+.rodapebaixo {
+	background-color:#000000;
+	width:100%;
+	height:100px;
+	border-radius:20px;
+}
+
+.rodapebaixo p {
+	margin-top:2px;
+	font-size:18px;
+	color:#2E8B57;
+}
+
+.verde  a {
+	background-color:green;
+	color:white;
+}
+
+.normal a {
+	background-color:black;
+	color:green;
+}
+
+#option:hover  a {
+	background-color:#2E8B57;
+	color:#000000;
+	border-radius:2px;
+}
+
+p:hover a {
+	background-color:#1E90FF;
+	color:#00FF7F;
+}
+
+#optionrodape:hover p {
+	color:#ffffff;
+}
+
+#option:hover  a {
+	background-color:#2E8B57;
+	color:#000000;
+}
+
+@media (min-width: 1100px) and (max-width: 1600px){
+	
+	body {
+		background-color:black;
+	}
+
+	.campo {
+		height:1200px;
+	}
+	.cabecalho {
+		width:100%;
+		height:200px;
+		background-color:black;
+	}
+
+	.centro {
+		width:80%;
+		height:200px;
+		background-color:black;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.menu {
+		background-color:black;
+		margin-top:75px;
+		float:right;
+		width:70%;
+		height:100px;
+	}
+
+	.logo {
+		background-color:pink;
+		width:30%;
+		height:200px;
+		border-radius:10px;
+	}
+
+	.logo img {
+		width:100%;
+		height:200px;
+		border-radius:10px;
+	}
+
+	.pagina {
+		width:100%;
+		height:800px;
+		background-color:black;
+	}
+
+	.banner {
+		width:80%;
+		height:800px;
+		margin-left:10%;
+		margin-right:10%;
+		border-radius:10px;
+	}
+
+	.banner {
+		background: url('../imagens/bannerm.jpeg');
+		background-size: 1600px 800px;
+	}
+
+	.central {
+		width:80%;
+		height:600px;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.um {
+		float:right;
+		width:450px;
+		height:300px;
+	}
+
+	.dois {
+		width:450px;
+		height:300px;
+	}
+
+	.umm {
+		width:450px;
+		height:100px;
+	}
+
+	.doiss {
+		width:40%;
+		margin-right:10%;
+		height:100px;
+		border-radius:20px;
+	}
+
+	.tress a {
+		font-size:30px;
+		padding:70px;
+		text-decoration:none;
+		font-family:verdana;
+		margin-left:15px;
+		margin-top:30px;
+		color:black;
+	}
+
+	.tress {
+		width:80%;
+		height:50px;
+		margin-right:10%;
+		border-radius:10px;
+		background-color:green;
+	}
+
+
+	.tres {
+		float:right;
+		width:450px;
+		height:300px;
+	}
+
+	.quatro {
+		width:450px;
+		height:300px;
+	}
+
+	#option:hover  a {
+		background-color:#2E8B57;
+		color:#000000;
+	}
+} 
+
+@media (min-width:960px) and (max-width:1099px) {
+		body {
+		background-color:black;
+	}
+
+	.campo {
+		height:1200px;
+	}
+	.cabecalho {
+		width:100%;
+		height:150px;
+		background-color:black;
+	}
+
+	.centro {
+		width:80%;
+		height:150px;
+		background-color:black;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.menu {
+		background-color:black;
+		margin-top:50px;
+		float:right;
+		width:70%;
+		height:75px;
+	}
+
+	.logo {
+		background-color:pink;
+		width:30%;
+		height:150px;
+		border-radius:10px;
+	}
+
+	.logo img {
+		width:100%;
+		height:150px;
+		border-radius:10px;
+	}
+
+	.pagina {
+		width:100%;
+		height:800px;
+		background-color:black;
+	}
+
+	.banner {
+		width:80%;
+		height:800px;
+		margin-left:10%;
+		margin-right:10%;
+		border-radius:10px;
+	}
+
+	.banner {
+		background: url('../imagens/bannerm.jpeg');
+		background-size: 1600px 800px;
+	}
+
+	.central {
+		width:80%;
+		height:600px;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.um {
+		float:right;
+		width:50%;
+		height:300px;
+	}
+
+	.dois {
+		width:50%;
+		height:300px;
+	}
+
+	.umm {
+		width:450px;
+		height:100px;
+	}
+
+	.doiss {
+		width:40%;
+		margin-right:10%;
+		height:100px;
+		border-radius:20px;
+	}
+
+	.tress a {
+		font-size:30px;
+		padding:70px;
+		text-decoration:none;
+		font-family:verdana;
+		margin-left:1px;
+		margin-top:30px;
+		color:black;
+	}
+
+	.tress {
+		width:90%;
+		height:50px;
+		margin-right:10%;
+		margin-left:10%;
+		border-radius:10px;
+		background-color:green;
+	}
+
+
+	.tres {
+		float:right;
+		width:50%;
+		height:300px;
+	}
+
+	.quatro {
+		width:50%;
+		height:300px;
+	}
+
+	#option:hover  a {
+		background-color:#2E8B57;
+		color:#000000;
+	}
+}

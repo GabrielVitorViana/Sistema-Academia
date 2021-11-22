@@ -1,0 +1,509 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="..\view\css\stylecatraca.css">
+	<script type="text/javascript" src="..\view\js\script.js"></script>
+	<title>Academia Equipamentos</title>
+</head>
+<body>
+	<div class="campo">
+		<div class="cabecalho">
+			<div class="centro">
+				<div class="menu">
+					<div class="opcao" id="option"><a href="../index.html">< Voltar</a></div>
+					<div class="opcao" id="option"><a href=""></a></div>
+					<div class="opcao" id="option"><a href=""></a></div>
+					<div class="opcao" id="option"><a href="equipamentos.html">EQUIPAMENTOS</a></div>
+				</div>
+				<div class="logo">
+					<img src="..\view\imagens\logo.png" width="150" height="100"> 
+				</div>
+			</div>
+		</div>
+		<div class="pagina">
+			<div class="banner">
+				<div class="central">
+					<div class="gerenciamento">
+						<div class="confirmacao">
+							<div class="equipamentos">
+								<div class="titulo">
+									<div class="indice"></div>
+									<div><h1>Esteira</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\esteira.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume" align="center"></h1></div>
+										<div class="menos" onclick="desc()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+										<div class="opman">
+											<form>
+											<input type="checkbox" name="manutencao" name="man" onclick="aparecer()">Manutenção
+										</form>
+										</div>
+										<div id="caman">
+											<div class="maisman" onclick="acumm()">
+												<img id="imgmais" src="..\view\imagens\mais.png"> 
+											</div>
+											<div class="numeman"><h1 class="numem" align="center">0</h1></div>
+											<div class="menosman" onclick="descm()">
+												<img id="imgmenos" src="..\view\imagens\menos.png">
+											</div>
+										</div>
+									</div>
+									<div class="uni"><p align="center" id="tiunidade">Nessa academia tem 0 esteira(s).</p></div>
+									<div class="man"><p align="center" id="timanutencao">Tem 0 esteiras em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div class="indice"></div>
+									<div><h1>Bicicleta</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\bicicleta.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum2()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume2" align="center"></h1></div>
+										<div class="menos" onclick="desc2()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+										<div class="opman">
+											<form>
+											<input type="checkbox" name="manutencao" name="man" onclick="aparecer2()">Manutenção
+										</form>
+										</div>
+										<div id="caman2">
+											<div class="maisman" onclick="acumm2()">
+												<img id="imgmais" src="..\view\imagens\mais.png"> 
+											</div>
+											<div class="numeman"></div>
+											<div class="menosman" onclick="descm2()">
+												<img id="imgmenos" src="..\view\imagens\menos.png">
+											</div>
+										</div>
+									</div>
+									<div class="uni"><p align="center" id="tibicicleta">Nessa academia tem 0 bicicleta(s).</p></div>
+									<div class="man"><p align="center" id="timanutencaobi">Tem 0 bicicleta(s) em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div class="indice"></div>
+									<div><h1>Eliptico</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\eliptico.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum3()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume3" align="center"></h1></div>
+										<div class="menos" onclick="desc3()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+										<div class="opman">
+											<form>
+											<input type="checkbox" name="manutencao" name="man" onclick="aparecer3()">Manutenção
+										</form>
+										</div>
+										<div id="caman3">
+											<div class="maisman" onclick="acumm3()">
+												<img class="imgmais" src="..\view\imagens\mais.png"> 
+											</div>
+											<div class="numeman"><h1 id="numem" align="center">0</h1></div>
+											<div class="menosman" onclick="descm3()">
+												<img class="imgmenos" src="..\view\imagens\menos.png">
+											</div>
+										</div>
+									</div>
+									<div class="uni"><p align="center" id="tieliptico">Nessa academia tem 0 eliptico(s).</p></div>
+									<div class="man"><p align="center" id="timanutencaoel">Tem 0 eliptico(s) em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div id="indiceHalter"></div>
+									<div><h1>Halter</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\equicinco.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum4()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume4" align="center"></h1></div>
+										<div class="menos" onclick="desc4()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+											<div class="opman">
+												<form>
+													<input type="checkbox" name="manutencao" name="man" onclick="aparecer4()">Manutenção
+												</form>
+											</div>
+										<div id="caman4">
+												<div class="maisman" onclick="acumm4()">
+													<img class="imgmais" src="..\view\imagens\mais.png"> 
+												</div>
+												<div class="numeman"></div>
+												<div class="menosman" onclick="descm4()">
+													<img class="imgmenos" src="..\view\imagens\menos.png">
+												</div>
+											</div>
+									</div>
+									<div class="uni"><p align="center" id="tihalter">Nessa academia tem 0 Halter(es).</p></div>
+									<div class="man"><p align="center" id="timanutencaoha">Tem 0 Hater(es) em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div id="indiceHalter"></div>
+									<div><h1>Polia</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\equidois.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum5()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume5" align="center"></h1></div>
+										<div class="menos" onclick="desc5()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+											<div class="opman">
+												<form>
+													<input type="checkbox" name="manutencao" name="man" onclick="aparecer5()">Manutenção
+												</form>
+											</div>
+										<div id="caman5">
+												<div class="maisman" onclick="acumm5()">
+													<img class="imgmais" src="..\view\imagens\mais.png"> 
+												</div>
+												<div class="numeman"></div>
+												<div class="menosman" onclick="descm5()">
+													<img class="imgmenos" src="..\view\imagens\menos.png">
+												</div>
+											</div>
+									</div>
+									<div class="uni"><p align="center" id="tipolia">Nessa academia tem 0 Polia(s).</p></div>
+									<div class="man"><p align="center" id="timanutencaopo">Tem x Polia(s) em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div id="indiceHalter"></div>
+									<div><h1>Peck Deck</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\equiseis.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum6()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume6" align="center"></h1></div>
+										<div class="menos" onclick="desc6()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+											<div class="opman">
+												<form>
+													<input type="checkbox" name="manutencao" name="man" onclick="aparecer6()">Manutenção
+												</form>
+											</div>
+										<div id="caman6">
+												<div class="maisman" onclick="acumm6()">
+													<img class="imgmais" src="..\view\imagens\mais.png"> 
+												</div>
+												<div class="numeman"></div>
+												<div class="menosman" onclick="descm6()">
+													<img class="imgmenos" src="..\view\imagens\menos.png">
+												</div>
+											</div>
+									</div>
+									<div class="uni"><p align="center" id="tipeckdeck">Nessa academia tem 0 Peck Deck(s).</p></div>
+									<div class="man"><p align="center" id="timanutencaope">Tem 0 Peck Deck em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div id="indiceinferior"></div>
+									<div><h1>Leg Press</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\equitres.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum7()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume7" align="center"></h1></div>
+										<div class="menos" onclick="desc7()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+											<div class="opman">
+												<form>
+													<input type="checkbox" name="manutencao" name="man" onclick="aparecer7()">Manutenção
+												</form>
+											</div>
+										<div id="caman7">
+												<div class="maisman" onclick="acumm7()">
+													<img class="imgmais" src="..\view\imagens\mais.png"> 
+												</div>
+												<div class="numeman"></div>
+												<div class="menosman" onclick="descm7()">
+													<img class="imgmenos" src="..\view\imagens\menos.png">
+												</div>
+											</div>
+									</div>
+									<div class="uni"><p align="center" id="tilegpress">Nessa academia tem 0 Leg Press.</p></div>
+									<div class="man"><p align="center" id="timanutencaole">Tem 0 Leg Press em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div id="indiceinferior"></div>
+									<div><h1>C. Flexora</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\equinove.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum8()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume8" align="center"></h1></div>
+										<div class="menos" onclick="desc8()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+											<div class="opman">
+												<form>
+													<input type="checkbox" name="manutencao" name="man" onclick="aparecer8()">Manutenção
+												</form>
+											</div>
+										<div id="caman8">
+												<div class="maisman" onclick="acumm8()">
+													<img class="imgmais" src="..\view\imagens\mais.png"> 
+												</div>
+												<div class="numeman"></div>
+												<div class="menosman" onclick="descm8()">
+													<img class="imgmenos" src="..\view\imagens\menos.png">
+												</div>
+											</div>
+									</div>
+									<div class="uni"><p align="center" id="tiflexora">Nessa academia tem 0 Cadeira(s) Flexora(s).</p></div>
+									<div class="man"><p align="center" id="timanutencaofl">Tem 0 Cadeira(s) Flexora(s) em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div id="indiceHalter"></div>
+									<div><h1>Barra</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\equioito.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum9()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume9" align="center"></h1></div>
+										<div class="menos" onclick="desc9()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+											<div class="opman">
+												<form>
+													<input type="checkbox" name="manutencao" name="man" onclick="aparecer9()">Manutenção
+												</form>
+											</div>
+										<div id="caman9">
+												<div class="maisman" onclick="acumm9()">
+													<img class="imgmais" src="..\view\imagens\mais.png"> 
+												</div>
+												<div class="numeman"></div>
+												<div class="menosman" onclick="descm9()">
+													<img class="imgmenos" src="..\view\imagens\menos.png">
+												</div>
+											</div>
+									</div>
+									<div class="uni"><p align="center" id="tibarra">Nessa academia tem 0 Barra(s).</p></div>
+									<div class="man"><p align="center" id="timanutencaoba">Tem 0 Barra(s) em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div id="indiceinferior"></div>
+									<div><h1>Remo Seco</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\equisete.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum10()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume10" align="center"></h1></div>
+										<div class="menos" onclick="desc10()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+											<div class="opman">
+												<form>
+													<input type="checkbox" name="manutencao" name="man" onclick="aparecer10()">Manutenção
+												</form>
+											</div>
+										<div id="caman10">
+												<div class="maisman" onclick="acumm10()">
+													<img class="imgmais" src="..\view\imagens\mais.png"> 
+												</div>
+												<div class="numeman"></div>
+												<div class="menosman" onclick="descm10()">
+													<img class="imgmenos" src="..\view\imagens\menos.png">
+												</div>
+											</div>
+									</div>
+									<div class="uni"><p align="center" id="tiremoseco">Nessa academia tem 0 Remo(s) Seco(s).</p></div>
+									<div class="man"><p align="center" id="timanutencaore">Tem 0 Remo(s) Seco(s) em manutenção.</p></div>
+								</div>
+							</div>
+
+							<div class="equipamentos">
+								<div class="titulo">
+									<div id="indiceHalter"></div>
+									<div><h1>Pulley</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\equiquatro.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum11()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume11" align="center"></h1></div>
+										<div class="menos" onclick="desc11()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+											<div class="opman">
+												<form>
+													<input type="checkbox" name="manutencao" name="man" onclick="aparecer11()">Manutenção
+												</form>
+											</div>
+										<div id="caman11">
+												<div class="maisman" onclick="acumm11()">
+													<img class="imgmais" src="..\view\imagens\mais.png"> 
+												</div>
+												<div class="numeman"></div>
+												<div class="menosman" onclick="desc11()">
+													<img class="imgmenos" src="..\view\imagens\menos.png">
+												</div>
+											</div>
+									</div>
+									<div class="uni"><p align="center" id="tiequipamento">Nessa academia tem 0 Indefinido(s).</p></div>
+									<div class="man"><p align="center" id="timanutencaoeq">Tem 0 Indefinido em manutenção.</p></div>
+								</div>
+							</div>
+							<div class="equipamentos">
+								<div class="titulo">
+									<div id="indiceHalter"></div>
+									<div><h1>Kittle Bell</h1></div>
+								</div>
+								<div class="imagem">
+									<img src="..\view\imagens\equidez.png" width="100%" height="100">
+								</div>
+								<div class="descricao">
+									<div class="unidades">
+										<div class="mais" onclick="acum12()">
+											<img id="imgmais" src="..\view\imagens\mais.png">
+										</div>
+										<div class="numeracao"><h1 id="nume12" align="center"></h1></div>
+										<div class="menos" onclick="desc12()">
+											<img id="imgmenos" src="..\view\imagens\menos.png">
+										</div>
+										<p>Unidades</p>
+									</div>
+									<div class="manutencao">
+											<div class="opman">
+												<form>
+													<input type="checkbox" name="manutencao" name="man" onclick="aparecer12()">Manutenção
+												</form>
+											</div>
+										<div id="caman12">
+												<div class="maisman" onclick="acumm12()">
+													<img class="imgmais" src="..\view\imagens\mais.png"> 
+												</div>
+												<div class="numeman"></div>
+												<div class="menosman" onclick="descm12()">
+													<img class="imgmenos" src="..\view\imagens\menos.png">
+												</div>
+											</div>
+									</div>
+									<div class="uni"><p align="center" id="tikittlebell">Nessa academia tem 0 Kittle Bell(s).</p></div>
+									<div class="man"><p align="center" id="timanutencaoki">Tem 0 Kittle Bell(s) em manutenção.</p></div>
+								</div>
+							</div>
+							<div id="ind">
+								<div class="indice2"></div><p class="fontind">Aerobico</p>
+								<div id="indicehalter2"></div><p class="fontind">Superior</p>
+								<div id="indiceinferior2"></div><p class="fontind">Inferior</p>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

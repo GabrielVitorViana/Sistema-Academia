@@ -1,0 +1,923 @@
+body {
+	background-color:black;
+	height:1500px;
+}
+
+a {
+	text-decoration:none;
+}
+
+img {
+	border-radius:20px;
+}
+
+.campo {
+	width:100%;
+	height:1500px;
+	background-color:black;
+}
+
+.cabecalho {
+	width:100%;
+	height:100px;
+	background-color:black;
+}
+
+.centro {
+	width:80%;
+	height:100px;
+	background-color:black;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.gerenciamento {
+	background-color:#3CB371;
+	width:90%;
+	height:1600px;
+	margin-left:5%;
+	margin-right:5%;
+	border-radius:2px;
+	opacity:0.9;
+}
+
+.confirmacao {
+	width:100%;
+	height:350px;
+}
+
+.equipamentos {
+	width:33%;
+	height:350px;
+	border-radius:20px;
+	background-color:#00FF7F;
+	float:left;
+	margin-left:2px;
+	margin-top:2px;
+}
+
+.titulo {
+	width:100%;
+	height:50px;
+	border-radius:20px;
+}
+
+.indice {
+	width:10%;
+	height:30px;
+	animation-name:aerobico;
+	animation-duration:4s;
+	animation-iteration-count:infinite; 
+	border-radius:50%;
+	float:left;
+	margin-right:20%;
+}
+
+#indicehalter {
+	width:10%;
+	height:30px;
+	animation-name:superior;
+	animation-duration:4s;
+	animation-iteration-count:infinite; 
+	border-radius:50%;
+	float:left;
+	margin-right:20%;
+}
+
+#indiceinferior {
+	width:10%;
+	height:30px;
+	animation-name:inferior;
+	animation-duration:4s;
+	animation-iteration-count:infinite; 
+	border-radius:50%;
+	float:left;
+	margin-right:20%;
+}
+
+#ind {
+	width:20%;
+	height:200px;
+	border-radius:20px;
+}
+
+.indice2 {
+	width:10%;
+	height:30px;
+	animation-name:aerobico;
+	animation-duration:4s;
+	animation-iteration-count:infinite; 
+	border-radius:50%;
+	float:right;
+	margin-right:5%;
+}
+
+#indicehalter2 {
+	width:10%;
+	height:30px;
+	animation-name:superior;
+	animation-duration:4s;
+	animation-iteration-count:infinite; 
+	border-radius:50%;
+	float:right;
+	margin-right:5%;
+}
+
+#indiceinferior2 {
+	width:10%;
+	height:30px;
+	animation-name:inferior;
+	animation-duration:4s;
+	animation-iteration-count:infinite; 
+	border-radius:50%;
+	float:right;
+	margin-right:5%;
+}
+
+.fontind {
+	font-family:verdana;
+	font-size:20px;
+}
+
+.imagem {
+	width:50%;
+	margin-left:25%;
+	height:100px;
+	border-radius:20px;
+	align-self:center;
+}
+
+.unidades {
+	width:100%;
+	height:30px;
+	border-radius:20px;
+}
+
+.mais {
+	width:10%;
+	height:25px;
+	background-color:#4f4f4f;
+	float:left;
+	border-radius:50%;
+}
+
+.numeracao {
+	width:10%;
+	height:25px;
+	float:left;
+	border-radius:50%;
+}
+
+@keyframes aerobico {
+	0% { background-color:#191970 }
+	25% { background-color:#0000CD }
+	50% { background-color:#00008B }
+	75% { background-color:#0000CD   }
+	100% { background-color:#191970 }
+}
+
+@keyframes superior {
+	0% { background-color:#800000 }
+	25% { background-color:#B22222  }
+	50% { background-color:#FF0000 }
+	75% { background-color:#B22222 }
+	100% { background-color:#800000 }
+}
+
+@keyframes inferior {
+	0% { background-color:#FF8C00 }
+	25% { background-color:#FFA500 }
+	50% { background-color:#FFD700  }
+	75% { background-color:#FFA500  }
+	100% { background-color:#FF8C00 }
+}
+
+.manutencao {
+	width:100%;
+	height:30px;
+	border-radius:20px;
+}
+
+.opman {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	float:left;
+}
+
+#caman {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman2 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman3 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman4 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman5 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman6 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman7 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman8 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman9 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman10 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman11 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+#caman12 {
+	width:50%;
+	height:30px;
+	border-radius:20px;
+	transition-duration:2s;
+	float:left;
+	display:none;
+}
+
+.maisman {
+	width:30%;
+	height:30px;
+	border-radius:50%;
+	background-color:yellow;
+	float:left;
+	transition-duration:2s;
+}
+
+#imgmais {
+	width:100%;
+	height:30px;
+	border-radius:50%;
+}
+
+.imgmais {
+	width:100%;
+	height:30px;
+	border-radius:50%;
+}
+
+#imgmenos {
+	width:100%;
+	height:30px;
+	border-radius:50%;
+}
+
+.imgmenos {
+	width:100%;
+	height:30px;
+	border-radius:50%;
+}
+
+.numem {
+	font-size:19px;
+}
+
+.numem {
+	font-size:19px;
+}
+
+#nume {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume2 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume3 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume4 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume5 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume6 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume7 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume8 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume9 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume10 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume11 {
+	font-size:19px;
+	align-self:center;
+}
+
+#nume12 {
+	font-size:19px;
+	align-self:center;
+}
+
+.numeman {
+	width:32%;
+	height:30px;
+	border-radius:50%;
+	float:left;
+	transition-duration:2s;
+}
+
+.menosman {
+	width:30%;
+	height:30px;
+	border-radius:50%;
+	background-color:blue;
+	float:left;
+	transition-duration:2s;
+}
+
+.uni {
+	width:100%;
+	height:30px;
+	border-radius:20px;
+}
+
+.man {
+	width:100%;
+	height:30px;
+	border-radius:20px;
+}
+
+.menos {
+	width:10%;
+	height:25px;
+	background-color:#4f4f4f;
+	float:left;
+	border-radius:50%;
+	margin-right:15px;
+}
+
+.liberacao {
+	background-color:#C0C0C0;
+	border-bottom-width:20px;
+	width:100%;
+	height:350px;
+}
+
+.liberacao h1 {
+	text-align:center;
+	font-size:50px;
+	font-family:verdana;
+	color:black;
+}
+
+.menu {
+	background-color:black;
+	margin-top:25px;
+	float:right;
+	width:500px;
+	height:50px;
+}
+
+.opcao {
+	background-color:black;
+	float:right;
+	margin-right:10px;
+	width:111px;
+	height:50px;
+}
+
+.opcao a {
+	font-size:25px;
+	text-decoration:none;
+	font-family:arial;
+	color:green;
+	margin-left:15px;
+	margin-top:10px;
+}
+
+.logo {
+	background-color:pink;
+	width:150px;
+	height:100px;
+}
+
+.pagina {
+	width:100%;
+	height:800px;
+	background-color:black;
+}
+
+.banner {
+	width:80%;
+	height:800px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.banner {
+	background: url('../imagens/catracaimagem.jpg');
+	background-size: 1100px 800px;
+	opacity:0.8;
+}
+
+.central {
+	width:900px;
+	height:600px;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+.formulario {
+	background-color:#2E8B57;
+	width:775px;
+	height:800px;
+	border-radius:10px;
+	opacity: 0.8;
+}
+
+.enviar input {
+	padding:10px;
+	margin:20px;
+}
+
+.back a {
+	text-decoration:none;
+	color:black;
+	font-size:15px;
+	font-family:verdana;
+}
+
+form p {
+	font-family:verdana;
+}
+
+legend {
+	font-family:verdana;
+}
+
+.formulario strong {
+	font-family:verdana;
+	font-size:15px;
+}
+.perfil {
+	background-color:blue;
+	float:right;
+	width:125px;
+	height:200px;
+	border-radius:10px;
+}
+
+.perfil img {
+	border-radius:10px;
+	opacity: 1;
+}
+
+.rodape {
+	width:100%;
+	height:200px;
+	background-color:#000000;
+}
+
+.rodapecenter {
+	width:80%;
+	border-radius:20px;
+	height:200px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.rodapeprimeiro {
+	width:49%;
+	height:200px;
+	border-radius:20px;
+	background-color:#000000;
+	margin-left:1%;
+	float:right;
+}
+
+.rodapesegundo {
+	width:49%;
+	height:200px;
+	border-radius:20px;
+	margin-right:1%;
+	background-color:#000000;
+}
+
+.rodapecima {
+	background-color:#000000;
+	width:100%;
+	height:100px;
+	border-radius:20px;
+}
+
+.social {
+	text-align:center;
+	width:15%;
+	height:100px;
+	border-radius:50%;
+	margin-right:1%;
+	float:left;
+}
+
+.social img {
+	width:100%;
+	height:100px;
+	border-radius:50%;
+}
+
+.rodapebaixo {
+	background-color:#000000;
+	width:100%;
+	height:100px;
+	border-radius:20px;
+}
+
+.rodapebaixo p {
+	margin-top:2px;
+	font-size:18px;
+	color:#2E8B57;
+}
+
+.verde  a {
+	background-color:green;
+	color:white;
+}
+
+.normal a {
+	background-color:black;
+	color:green;
+}
+
+#option:hover  a {
+	background-color:#2E8B57;
+	color:#000000;
+	border-radius:2px;
+}
+
+p:hover a {
+	background-color:#1E90FF;
+	color:#00FF7F;
+}
+
+#optionrodape:hover p {
+	color:#ffffff;
+}
+
+#option:hover  a {
+	background-color:#2E8B57;
+	color:#000000;
+}
+
+@media (min-width: 1100px) and (max-width: 1600px){
+	
+	body {
+		background-color:black;
+	}
+
+	.campo {
+		height:1200px;
+	}
+	.cabecalho {
+		width:100%;
+		height:200px;
+		background-color:black;
+	}
+
+	.centro {
+		width:80%;
+		height:200px;
+		background-color:black;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.menu {
+		background-color:black;
+		margin-top:75px;
+		float:right;
+		width:70%;
+		height:100px;
+	}
+
+	.logo {
+		background-color:pink;
+		width:30%;
+		height:200px;
+		border-radius:10px;
+	}
+
+	.logo img {
+		width:100%;
+		height:200px;
+		border-radius:10px;
+	}
+
+	.pagina {
+		width:100%;
+		height:800px;
+		background-color:black;
+	}
+
+	.banner {
+		width:80%;
+		height:800px;
+		margin-left:10%;
+		margin-right:10%;
+		border-radius:10px;
+	}
+
+	.banner {
+		background: url('../imagens/catracaimagem.jpg');
+		background-size: 1600px 800px;
+	}
+
+	.central {
+		width:80%;
+		height:600px;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.um {
+		float:right;
+		width:450px;
+		height:300px;
+	}
+
+	.dois {
+		width:450px;
+		height:300px;
+	}
+
+	.umm {
+		width:450px;
+		height:100px;
+	}
+
+	.doiss {
+		width:40%;
+		margin-right:10%;
+		height:100px;
+		border-radius:20px;
+	}
+
+	.tress a {
+		font-size:30px;
+		padding:70px;
+		text-decoration:none;
+		font-family:verdana;
+		margin-left:15px;
+		margin-top:30px;
+		color:black;
+	}
+
+	.tress {
+		width:80%;
+		height:50px;
+		margin-right:10%;
+		border-radius:10px;
+		background-color:green;
+	}
+
+
+	.tres {
+		float:right;
+		width:450px;
+		height:300px;
+	}
+
+	.quatro {
+		width:450px;
+		height:300px;
+	}
+
+	#option:hover  a {
+		background-color:#2E8B57;
+		color:#000000;
+	}
+} 
+
+@media (min-width:960px) and (max-width:1099px) {
+		body {
+		background-color:black;
+	}
+
+	.campo {
+		height:1200px;
+	}
+	.cabecalho {
+		width:100%;
+		height:150px;
+		background-color:black;
+	}
+
+	.centro {
+		width:80%;
+		height:150px;
+		background-color:black;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.menu {
+		background-color:black;
+		margin-top:50px;
+		float:right;
+		width:70%;
+		height:75px;
+	}
+
+	.logo {
+		background-color:pink;
+		width:30%;
+		height:150px;
+		border-radius:10px;
+	}
+
+	.logo img {
+		width:100%;
+		height:150px;
+		border-radius:10px;
+	}
+
+	.pagina {
+		width:100%;
+		height:800px;
+		background-color:black;
+	}
+
+	.banner {
+		width:80%;
+		height:800px;
+		margin-left:10%;
+		margin-right:10%;
+		border-radius:10px;
+	}
+
+	.banner {
+		background: url('../imagens/catracaimagem.jpg');
+		background-size: 1600px 800px;
+	}
+
+	.central {
+		width:80%;
+		height:600px;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.um {
+		float:right;
+		width:50%;
+		height:300px;
+	}
+
+	.dois {
+		width:50%;
+		height:300px;
+	}
+
+	.umm {
+		width:450px;
+		height:100px;
+	}
+
+	.doiss {
+		width:40%;
+		margin-right:10%;
+		height:100px;
+		border-radius:20px;
+	}
+
+	.tress a {
+		font-size:30px;
+		padding:70px;
+		text-decoration:none;
+		font-family:verdana;
+		margin-left:1px;
+		margin-top:30px;
+		color:black;
+	}
+
+	.tress {
+		width:90%;
+		height:50px;
+		margin-right:10%;
+		margin-left:10%;
+		border-radius:10px;
+		background-color:green;
+	}
+
+
+	.tres {
+		float:right;
+		width:50%;
+		height:300px;
+	}
+
+	.quatro {
+		width:50%;
+		height:300px;
+	}
+
+	#option:hover  a {
+		background-color:#2E8B57;
+		color:#000000;
+	}
+}
